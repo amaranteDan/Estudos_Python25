@@ -7,7 +7,6 @@ __pycache__/
 
 # Virtualenv
 .env
-venv
 env/
 venv/
 ENV/
