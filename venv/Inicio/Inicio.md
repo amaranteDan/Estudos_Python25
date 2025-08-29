@@ -1,7 +1,3 @@
-Boa! 😃 Então vou adicionar um **índice (sumário clicável em Markdown)** no início do seu `inicio.md`, para facilitar a navegação.
-
-Aqui está a versão **final formatada com índice**:
-
 ````markdown
 # 📚 Sumário
 
