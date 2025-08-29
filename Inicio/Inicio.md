@@ -166,5 +166,133 @@ print(len(keyword.kwlist))
 ---
 
 
+🚀 Vamos explicar direitinho o que fazem as funções **`str()`**, **`int()`** e **`float()`** no Python, com exemplos práticos.
+
+---
+
+# 📌 1. `str()`
+
+👉 Converte um valor em **string** (texto).
+
+### Exemplos:
+
+```python
+# Número para string
+x = 10
+print(str(x))        # "10"
+print(type(str(x)))  # <class 'str'>
+
+# Booleano para string
+flag = True
+print(str(flag))     # "True"
+
+# Lista para string
+lista = [1, 2, 3]
+print(str(lista))    # "[1, 2, 3]"
+```
+
+---
+
+# 📌 2. `int()`
+
+👉 Converte um valor para **inteiro** (número sem casas decimais).
+⚠️ Se tentar converter algo inválido (ex.: `"abc"`), gera erro.
+
+### Exemplos:
+
+```python
+# Float para inteiro (corta a parte decimal)
+print(int(3.99))   # 3
+
+# String numérica para inteiro
+print(int("42"))   # 42
+
+# Booleano para inteiro
+print(int(True))   # 1
+print(int(False))  # 0
+```
+
+---
+
+# 📌 3. `float()`
+
+👉 Converte um valor para **número de ponto flutuante** (com casas decimais).
+
+### Exemplos:
+
+```python
+# Inteiro para float
+print(float(7))     # 7.0
+
+# String numérica para float
+print(float("3.14"))  # 3.14
+
+# Booleano para float
+print(float(True))   # 1.0
+print(float(False))  # 0.0
+```
+
+---
+
+# 📌 Comparação prática entre as três
+
+```python
+n = 5
+
+print(str(n))   # "5"   (texto)
+print(int("10"))   # 10   (inteiro)
+print(float("3.5")) # 3.5 (decimal)
+```
+
+---
+
+Perfeito 😃 vamos montar uma **tabelinha comparativa** lado a lado mostrando como `str()`, `int()` e `float()` se comportam com os mesmos valores.
+
+---
+
+# 📌 Comparação entre `str()`, `int()` e `float()`
+
+| Valor de entrada  | `str()` (texto) | `int()` (inteiro)     | `float()` (decimal) |
+| ----------------- | --------------- | --------------------- | ------------------- |
+| `10`              | `"10"`          | `10`                  | `10.0`              |
+| `3.99`            | `"3.99"`        | `3`                   | `3.99`              |
+| `"42"` (string)   | `"42"`          | `42`                  | `42.0`              |
+| `"3.14"` (string) | `"3.14"`        | ❌ Erro (`ValueError`) | `3.14`              |
+| `True`            | `"True"`        | `1`                   | `1.0`               |
+| `False`           | `"False"`       | `0`                   | `0.0`               |
+
+---
+
+## ⚡ Exemplos em código
+
+```python
+# Exemplo com número inteiro
+n = 10
+print(str(n))   # "10"
+print(int(n))   # 10
+print(float(n)) # 10.0
+
+# Exemplo com float
+f = 3.99
+print(str(f))   # "3.99"
+print(int(f))   # 3
+print(float(f)) # 3.99
+
+# Exemplo com string
+s = "42"
+print(str(s))   # "42"
+print(int(s))   # 42
+print(float(s)) # 42.0
+
+# Exemplo com booleano
+print(str(True))   # "True"
+print(int(True))   # 1
+print(float(True)) # 1.0
+```
+
+---
+
+
+
 
 
