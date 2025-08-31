@@ -34,7 +34,7 @@ Exemplo: `python3 -m ensurepip --upgrade` -> **Funcionou na primeira tentativa**
 
 ---
 
-## Reomendação de criação de Ambiente virtual
+## Recomendação de criação de Ambiente virtual
 
 ✅ **Deixar ambiente atualizado**
 

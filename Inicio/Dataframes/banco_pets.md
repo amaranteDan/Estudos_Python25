@@ -1,7 +1,8 @@
-## Este é o banco de dados com mais registros
+## Este é o banco de dados com mais registros - 1000 registros
 
 $ mysql -u root -p 
-passwd = 1234
+passwd = sua_senha
 
 table pets
+show tables;
 
