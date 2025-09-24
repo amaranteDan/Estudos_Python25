@@ -64,7 +64,7 @@ dmypy.json
 .prof
 
 # Arquivos de teste que não ser levados ao git
-*.tx
+*.txt
 
 # Ignorar arquivos .db
 *.db
