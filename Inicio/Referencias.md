@@ -25,3 +25,11 @@
 ## Brython - Script language for the web
 
 `https://brython.info/`
+
+## Removendo arquivos do rastreamento do git
+
+`git rm --cached arquivos.txt`
+`git rm --cached testes.txt`
+
+## Depois comitar
+`git commit -m "Remove arquivos.txt e testes.txt do rastreamento"`

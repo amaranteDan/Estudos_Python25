@@ -62,3 +62,11 @@ dmypy.json
 
 # Arquivos do profiling
 .prof
+
+# Arquivos de teste que não ser levados ao git
+*.tx
+
+# Ignorar arquivos .db
+*.db
+*.sqlite
+*.sqlite3
