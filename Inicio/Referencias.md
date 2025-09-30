@@ -208,6 +208,25 @@ Beatriz - Média: 9.33
 
 ---
 
-👉 Assim você consegue escalar de **um aluno** para **vários alunos em uma turma**, mantendo o código organizado com POO.
+Não existe um emoji oficial só para **debug**, mas dá pra usar alguns que combinam bem com o contexto de “depuração”, “analisar”, “caçar bug” 🐛🔍.
 
-Quer que eu monte um **exemplo avançado**, juntando isso com **Flask + banco de dados (SQLAlchemy)** para salvar alunos e médias em uma aplicação web?
+Aqui estão alguns que a galera costuma usar:
+
+* 🐛 → bug (clássico pra marcar erro/bug)
+* 🔍 → lupa (investigando algo)
+* 🐞 → joaninha (bug de software também)
+* 🛠️ → ferramentas (arrumando algo)
+* 📊 → logs, análise
+* 📝 → anotações de debug
+* 🧪 → testes
+* 🚧 → em desenvolvimento
+
+Exemplo de log com emoji:
+
+```text
+🐛 DEBUG: variável x = 42
+🔍 TRACE: entrou na função processar_dados()
+```
+
+👉 Quer que eu te monte um **padrão de logs com emojis** (tipo INFO, DEBUG, ERROR, WARNING cada um com seu emoji)?
+
